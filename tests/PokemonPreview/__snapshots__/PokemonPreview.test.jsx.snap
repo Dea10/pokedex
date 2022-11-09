@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPreview test should match snapshot with no pokemon redered 1`] = `
+<div>
+  <div
+    class="pokemon-preview-container"
+  >
+    <div
+      class="pokemon-preview"
+    >
+      <small
+        class="preview-text"
+      >
+        Click on a pokemon to preview
+      </small>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PokemonPreview test should match snapshot with pokemon redered 1`] = `
+<div>
+  <div
+    class="pokemon-preview-container"
+  >
+    <div
+      class="pokemon-preview"
+    >
+      <img
+        alt=""
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+      />
+    </div>
+  </div>
+</div>
+`;

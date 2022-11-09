@@ -1,0 +1,10 @@
+.list-item {
+    cursor: pointer;
+    padding: 4px;
+    border: 1px solid yellow;
+    border-radius: 8px;
+    margin: 4px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
